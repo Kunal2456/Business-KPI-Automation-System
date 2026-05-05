@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <!-- Background gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0d0d1a"/>
+    </radialGradient>
+    <!-- Purple glow gradient -->
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0"/>
+    </radialGradient>
+    <!-- K letter gradient -->
+    <linearGradient id="kGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a78bfa"/>
+      <stop offset="50%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <!-- Ring gradient -->
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="50%" style="stop-color:#a78bfa"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <!-- Chart gradient -->
+    <linearGradient id="chartGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0.1"/>
+    </linearGradient>
+    <clipPath id="circle">
+      <circle cx="250" cy="250" r="245"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="250" cy="250" r="250" fill="#0d0d1a"/>
+  <circle cx="250" cy="250" r="250" fill="url(#bgGrad)"/>
+
+  <!-- Clipped content area -->
+  <g clip-path="url(#circle)">
+
+    <!-- Grid lines (subtle) -->
+    <line x1="0" y1="100" x2="500" y2="100" stroke="#6366f1" stroke-width="0.3" stroke-opacity="0.15"/>
+    <line x1="0" y1="200" x2="500" y2="200" stroke="#6366f1" stroke-width="0.3" stroke-opacity="0.15"/>
+    <line x1="0" y1="300" x2="500" y2="300" stroke="#6366f1" stroke-width="0.3" stroke-opacity="0.15"/>
+    <line x1="0" y1="400" x2="500" y2="400" stroke="#6366f1" stroke-width="0.3" stroke-opacity="0.15"/>
+    <line x1="100" y1="0" x2="100" y2="500" stroke="#6366f1" stroke-width="0.3" stroke-opacity="0.15"/>
+    <line x1="200" y1="0" x2="200" y2="500" stroke="#6366f1" stroke-width="0.3" stroke-opacity="0.15"/>
+    <line x1="300" y1="0" x2="300" y2="500" stroke="#6366f1" stroke-width="0.3" stroke-opacity="0.15"/>
+    <line x1="400" y1="0" x2="400" y2="500" stroke="#6366f1" stroke-width="0.3" stroke-opacity="0.15"/>
+
+    <!-- Glow blob center -->
+    <circle cx="250" cy="250" r="180" fill="url(#glowPurple)"/>
+
+    <!-- Bar chart at bottom (data analytics vibe) -->
+    <rect x="60" y="390" width="30" height="70" fill="url(#chartGrad)" rx="4"/>
+    <rect x="100" y="360" width="30" height="100" fill="url(#chartGrad)" rx="4"/>
+    <rect x="140" y="375" width="30" height="85" fill="url(#chartGrad)" rx="4"/>
+    <rect x="330" y="370" width="30" height="90" fill="url(#chartGrad)" rx="4"/>
+    <rect x="370" y="355" width="30" height="105" fill="url(#chartGrad)" rx="4"/>
+    <rect x="410" y="380" width="30" height="80" fill="url(#chartGrad)" rx="4"/>
+
+    <!-- Line chart (top area) -->
+    <polyline points="50,120 100,100 160,130 220,90 280,110 340,80 400,95 460,75"
+      fill="none" stroke="#6366f1" stroke-width="2.5" stroke-opacity="0.5"/>
+    <!-- Dots on line -->
+    <circle cx="100" cy="100" r="4" fill="#a78bfa"/>
+    <circle cx="220" cy="90" r="4" fill="#a78bfa"/>
+    <circle cx="340" cy="80" r="4" fill="#a78bfa"/>
+    <circle cx="460" cy="75" r="4" fill="#a78bfa"/>
+
+    <!-- Floating dots (data points) -->
+    <circle cx="80" cy="200" r="3" fill="#6366f1" fill-opacity="0.6"/>
+    <circle cx="430" cy="180" r="3" fill="#6366f1" fill-opacity="0.6"/>
+    <circle cx="70" cy="320" r="2" fill="#3b82f6" fill-opacity="0.5"/>
+    <circle cx="450" cy="310" r="2" fill="#3b82f6" fill-opacity="0.5"/>
+    <circle cx="150" cy="160" r="2.5" fill="#a78bfa" fill-opacity="0.4"/>
+    <circle cx="360" cy="155" r="2.5" fill="#a78bfa" fill-opacity="0.4"/>
+
+    <!-- Code brackets (dev vibe) -->
+    <text x="52" y="270" font-family="monospace" font-size="36" fill="#6366f1" fill-opacity="0.25" font-weight="bold">&lt;/&gt;</text>
+    <text x="390" y="270" font-family="monospace" font-size="36" fill="#6366f1" fill-opacity="0.25" font-weight="bold">{}</text>
+
+  </g>
+
+  <!-- Outer ring -->
+  <circle cx="250" cy="250" r="240" fill="none" stroke="url(#ringGrad)" stroke-width="3"/>
+  <!-- Inner ring -->
+  <circle cx="250" cy="250" r="220" fill="none" stroke="#6366f1" stroke-width="0.8" stroke-opacity="0.3"/>
+
+  <!-- Ring tick marks -->
+  <line x1="250" y1="10" x2="250" y2="30" stroke="#6366f1" stroke-width="2" stroke-opacity="0.8"/>
+  <line x1="250" y1="470" x2="250" y2="490" stroke="#6366f1" stroke-width="2" stroke-opacity="0.8"/>
+  <line x1="10" y1="250" x2="30" y2="250" stroke="#6366f1" stroke-width="2" stroke-opacity="0.8"/>
+  <line x1="470" y1="250" x2="490" y2="250" stroke="#6366f1" stroke-width="2" stroke-opacity="0.8"/>
+
+  <!-- Big K letter -->
+  <text x="250" y="310"
+    font-family="Arial Black, sans-serif"
+    font-size="220"
+    font-weight="900"
+    fill="url(#kGrad)"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    letter-spacing="-5">K</text>
+
+  <!-- Subtle shadow under K -->
+  <text x="255" y="315"
+    font-family="Arial Black, sans-serif"
+    font-size="220"
+    font-weight="900"
+    fill="#6366f1"
+    fill-opacity="0.08"
+    text-anchor="middle"
+    dominant-baseline="middle">K</text>
+
+  <!-- Bottom label -->
+  <rect x="145" y="400" width="210" height="32" rx="16" fill="#6366f1" fill-opacity="0.15"/>
+  <text x="250" y="421"
+    font-family="Arial, sans-serif"
+    font-size="13"
+    fill="#a78bfa"
+    text-anchor="middle"
+    letter-spacing="3">DATA · DEV · BI</text>
+
+</svg>
