@@ -1,137 +1,178 @@
 <div align="center">
 
-<!-- Animated Banner Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=ShelfIQ&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Smart%20Inventory%20Intelligence%20Platform&descAlignY=60&descSize=20" width="100%"/>
+<!-- HERO BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=ShelfIQ&fontSize=120&fontColor=fff&animation=twinkling&fontAlignY=40&desc=%F0%9F%9A%80%20Smart%20Inventory%20Intelligence%20Platform&descAlignY=62&descSize=24&stroke=6366f1&strokeWidth=2" width="100%"/>
 
-<!-- Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&width=700&height=80&lines=Business+KPI+Automation+%26+Reporting+System;Real-time+Inventory+%7C+GST+Invoicing+%7C+Multi-Store;Built+with+React+%2B+TypeScript+%2B+Supabase" alt="Typing SVG" />
+<!-- TYPING ANIMATION -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2000&pause=600&color=6366F1&center=true&vCenter=true&width=900&lines=%E2%9A%A1+Production-Ready+SaaS+Platform;%F0%9F%93%8A+Real-Time+Business+KPI+Automation;%F0%9F%A7%BE+GST+Invoice+%2B+Multi-Store+Management;%F0%9F%8C%8D+Multi-Language+%7C+EN+%7C+IT+%7C+HI;%F0%9F%92%B3+4-Tier+Subscription+%2B+14-Day+Free+Trial;%F0%9F%94%A5+Built+with+React+%2B+TypeScript+%2B+Supabase" alt="Typing SVG" />
 
 <br/>
 
-[![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Supabase](https://img.shields.io/badge/Supabase-Backend-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
-[![React Router](https://img.shields.io/badge/React%20Router-v7-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)](https://reactrouter.com/)
-[![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](LICENSE)
+<!-- BADGES ROW 1 -->
+![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_v4-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite_6-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+<!-- BADGES ROW 2 -->
+![React Router](https://img.shields.io/badge/React_Router_v7-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
+![i18n](https://img.shields.io/badge/i18next-3-26A69A?style=for-the-badge&logo=i18next&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)
+
+<br/>
+
+<!-- STATUS BADGES -->
+![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=flat-square)
+![Version](https://img.shields.io/badge/Version-1.0.0-6366f1?style=flat-square)
+![PRs](https://img.shields.io/badge/PRs-Welcome-f59e0b?style=flat-square)
+![Made in India](https://img.shields.io/badge/Made%20in-India%20%F0%9F%87%AE%F0%9F%87%B3-orange?style=flat-square)
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+<div align="center">
 
-- [Overview](#-overview)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
-- [Project Structure](#-project-structure)
-- [Subscription Plans](#-subscription-plans)
-- [Multi-Language Support](#-multi-language-support)
-- [GST & Invoice System](#-gst--invoice-system)
-- [Environment Variables](#-environment-variables)
-- [GitHub Stats](#-github-stats)
-- [Contributing](#-contributing)
+## The Problem We Solve
+
+</div>
+
+> Store owners drown in spreadsheets, miss low-stock alerts, lose GST invoices, and have zero visibility into real business performance.
+> **ShelfIQ changes that — one dashboard, full control.**
 
 ---
 
-## 🚀 Overview
+## What is ShelfIQ?
 
-ShelfIQ is a **full-stack SaaS Business KPI Automation & Reporting System** built for retail store owners. It transforms raw store data into actionable intelligence — tracking inventory, sales, vendors, and financials — all in one unified dashboard.
+**ShelfIQ** is a production-grade, multi-tenant SaaS platform that gives retail store owners a single command center for inventory, finances, vendors, and business KPIs — powered by real-time data and enterprise-grade infrastructure.
 
-> Built as a **college major project** demonstrating enterprise-grade SaaS architecture, real-time database integration, multi-language support, GST compliance, and subscription-based access control.
+```
+No more guessing. No more spreadsheet chaos. Just data-driven decisions.
+```
 
 ---
 
-## ✨ Features
+<div align="center">
 
-### 🏪 Store Management
-- Multi-store registration with branch-level tracking
-- Business onboarding wizard (name, address, GSTIN, store type)
-- Real data persistence via Supabase — no demo/mock data
+## Core Features
 
-### 📊 Business Intelligence Dashboard
-- Real-time KPI cards (Revenue, Orders, Stock, Profit)
-- Interactive charts — Line, Bar, Pie, Area (powered by Recharts)
-- Sales trends, category breakdown, and inventory heatmaps
+</div>
 
-### 📦 Inventory Management
-- Product catalog with stock tracking
-- Low-stock alerts and reorder suggestions
-- Excel/CSV import & export (via xlsx)
-- Drag-and-drop product ordering (react-dnd)
+<table>
+<tr>
+<td width="50%">
 
-### 🤝 Vendor Management
-- Vendor directory with contact details
+### Business Intelligence Dashboard
+- Real-time KPI cards (Revenue, Orders, Profit, Stock)
+- Interactive Line, Bar, Pie, Area charts
+- Sales trend analysis and forecasting
+- Category-wise inventory heatmaps
+- Daily, weekly, monthly reporting
+
+</td>
+<td width="50%">
+
+### Inventory Management
+- Full product catalog with SKU tracking
+- Low-stock alerts and reorder automation
+- Excel and CSV bulk import/export
+- Drag-and-drop product ordering
+- Multi-category filtering and search
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### GST Invoice System
+- Auto-fetch business info via GSTIN
+- GST-compliant invoices (CGST, SGST, IGST)
+- Multi-store invoice history
+- PDF-ready invoice templates
+- Tax breakdown and summary reports
+
+</td>
+<td width="50%">
+
+### Vendor Management
+- Complete vendor directory
 - Purchase order tracking
 - Vendor performance analytics
+- Contact and payment history
+- Supplier-wise stock analysis
 
-### 🧾 GST Invoice System
-- Auto-fetch business details via GSTIN
-- Generate professional GST-compliant invoices
-- Multi-store invoice management
-- PDF-ready invoice templates
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-### 👤 Authentication & Security
-- OTP-based verification
-- Supabase Auth integration
+### Authentication and Security
+- OTP-based phone verification
+- Supabase Auth with session management
 - Role-based access control
 - 14-day free trial with subscription gating
+- Secure API endpoints with JWT
 
-### 🌍 Multi-Language Support
-- English, Italian, Hindi
-- Globe icon language switcher
-- i18next + react-i18next integration
+</td>
+<td width="50%">
+
+### Multi-Language Support
+- English, Italian, Hindi out of the box
+- Globe icon switcher in navbar
+- Language preference persisted
+- i18next with browser detection
+- Full UI translation coverage
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 💳 Subscription Plans
+## Tech Architecture
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                    ShelfIQ Platform                      │
+├─────────────────┬───────────────────┬───────────────────┤
+│   Frontend      │     Backend       │    Database        │
+│                 │                   │                    │
+│  React 18       │  Hono.js          │  PostgreSQL        │
+│  TypeScript     │  Deno Runtime     │  Supabase          │
+│  Tailwind v4    │  Edge Functions   │  KV Store          │
+│  React Router   │  REST API         │  Supabase Auth     │
+│  Recharts       │  JWT Auth         │  Supabase Storage  │
+│  Framer Motion  │  CORS Middleware  │                    │
+│  i18next        │                   │                    │
+└─────────────────┴───────────────────┴───────────────────┘
+```
+
+---
+
+## Subscription Plans
 
 <div align="center">
 
-| Plan | Price | Stores | Features |
-|------|-------|--------|----------|
-| 🆓 **Free Trial** | ₹0 / 14 days | 1 | Core dashboard, basic reports |
-| 🚀 **Starter** | ₹499/mo | 3 | Basic reports, inventory |
-| 💼 **Professional** | ₹1499/mo | 10 | GST invoicing, vendor mgmt |
-| 🏢 **Enterprise** | Custom | Unlimited | API access, priority support |
+|  | Free Trial | Starter | Professional | Enterprise |
+|:---:|:---:|:---:|:---:|:---:|
+| **Price** | Free / 14 days | Rs 499/mo | Rs 1499/mo | Custom |
+| **Stores** | 1 | 3 | 10 | Unlimited |
+| **Dashboard** | Basic | Standard | Advanced | Custom |
+| **GST Invoicing** | No | No | Yes | Yes |
+| **Vendor Mgmt** | No | No | Yes | Yes |
+| **Excel Export** | No | Yes | Yes | Yes |
+| **Multi-Language** | Yes | Yes | Yes | Yes |
+| **API Access** | No | No | No | Yes |
+| **Support** | Community | Email | Priority | Dedicated |
 
 </div>
 
 ---
 
-## 🛠 Tech Stack
-
-<div align="center">
-
-| Layer | Technology |
-|-------|-----------|
-| **Frontend** | React 18, TypeScript, Vite 6 |
-| **Styling** | Tailwind CSS v4, Framer Motion |
-| **UI Components** | Radix UI, MUI, Lucide Icons |
-| **Routing** | React Router v7 |
-| **Forms & i18n** | React Hook Form v7, i18next |
-| **Charts** | Recharts 2.x |
-| **Backend** | Supabase (PostgreSQL + Edge Functions) |
-| **Server** | Hono.js on Deno runtime |
-| **Auth** | Supabase Auth + OTP |
-| **File Handling** | xlsx (Excel/CSV import-export) |
-| **Package Manager** | pnpm |
-
-</div>
-
----
-
-## ⚡ Getting Started
-
-### Prerequisites
-
-- Node.js `v18+`
-- pnpm `v8+`
-- Supabase account
-
-### Installation
+## Quick Start
 
 ```bash
 # Clone the repository
@@ -141,128 +182,140 @@ cd Business-KPI-Automation-System
 # Install dependencies
 pnpm install
 
-# Set up environment variables
+# Configure environment
 cp .env.example .env
-# Fill in your Supabase credentials in .env
+# Add your Supabase URL and keys to .env
 
-# Start the development server
+# Start development server
 pnpm dev
 ```
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ShelfIQ/
-├── src/
-│   ├── app/
-│   │   ├── App.tsx                  # Root component & routing
-│   │   ├── components/              # Reusable UI components
-│   │   │   ├── Dashboard/           # KPI cards, charts
-│   │   │   ├── Inventory/           # Product management
-│   │   │   ├── Vendors/             # Vendor directory
-│   │   │   ├── GST/                 # Invoice system
-│   │   │   ├── Auth/                # Login, OTP, onboarding
-│   │   │   └── Landing/             # Animated landing page
-│   │   ├── hooks/                   # Custom React hooks
-│   │   ├── i18n/                    # Translations (EN, IT, HI)
-│   │   ├── types/                   # TypeScript type definitions
-│   │   └── utils/                   # Helper functions
-│   └── styles/
-│       ├── theme.css                # Design tokens & CSS variables
-│       └── fonts.css                # Font imports
-├── supabase/
-│   └── functions/
-│       └── server/
-│           ├── index.tsx            # Hono API server
-│           └── kv_store.tsx         # Key-value store utilities
-├── .env.example
-├── package.json
-└── README.md
+├── src/app/
+│   ├── App.tsx                    # Root + routing
+│   ├── components/
+│   │   ├── Dashboard/             # KPI cards and charts
+│   │   ├── Inventory/             # Product management
+│   │   ├── Vendors/               # Vendor directory
+│   │   ├── GST/                   # Invoice generation
+│   │   ├── Auth/                  # Login, OTP, wizard
+│   │   └── Landing/               # Animated landing page
+│   ├── hooks/                     # Custom React hooks
+│   ├── i18n/                      # EN, IT, HI translations
+│   ├── types/                     # TypeScript definitions
+│   └── utils/                     # Helpers and utilities
+├── supabase/functions/server/
+│   ├── index.tsx                  # Hono API server
+│   └── kv_store.tsx               # KV store utilities
+├── src/styles/
+│   ├── theme.css                  # Design tokens
+│   └── fonts.css                  # Font imports
+└── .env.example                   # Environment template
 ```
 
 ---
 
-## 🌍 Multi-Language Support
+## Environment Variables
+
+```env
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
+```
+
+---
+
+## Tech Stack Deep Dive
 
 <div align="center">
 
-| Language | Code | Status |
-|----------|------|--------|
-| 🇬🇧 English | `en` | ✅ Complete |
-| 🇮🇹 Italian | `it` | ✅ Complete |
-| 🇮🇳 Hindi | `hi` | ✅ Complete |
+**Frontend Layer**
 
-</div>
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=white)
 
-Switch languages using the **🌐 globe icon** in the navigation bar.
+**UI and Components**
 
----
+![Radix UI](https://img.shields.io/badge/Radix_UI-161618?style=for-the-badge&logo=radixui&logoColor=white)
+![MUI](https://img.shields.io/badge/MUI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
+![Lucide](https://img.shields.io/badge/Lucide_Icons-f59e0b?style=for-the-badge&logo=lucide&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
 
-## 🧾 GST & Invoice System
+**Backend and Infrastructure**
 
-- Auto-fetch business details using **GSTIN**
-- GST-compliant invoices with **CGST, SGST, IGST** breakdowns
-- Multi-store invoice history with search and filter
-- PDF-ready invoice templates
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Deno](https://img.shields.io/badge/Deno-white?style=for-the-badge&logo=deno&logoColor=black)
+![Hono](https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white)
 
----
+**Developer Tools**
 
-## 🔐 Environment Variables
-
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `VITE_SUPABASE_URL` | Supabase project URL | ✅ |
-| `VITE_SUPABASE_ANON_KEY` | Supabase public anon key | ✅ |
-| `SUPABASE_SERVICE_ROLE_KEY` | Server-side service key | ✅ (backend) |
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Kunal2456&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&icon_color=6366f1&text_color=ffffff" height="165" alt="GitHub Stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2456&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&text_color=ffffff" height="165" alt="Top Languages"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Kunal2456&theme=tokyonight&hide_border=true&background=0D1117&stroke=6366f1&ring=6366f1&fire=f59e0b&currStreakLabel=6366f1" alt="GitHub Streak"/>
-
-</div>
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-1. Fork the repo
-2. Create your branch: `git checkout -b feature/amazing-feature`
-3. Commit: `git commit -m 'Add amazing feature'`
-4. Push: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
----
-
-## 👨‍💻 Author
-
-<div align="center">
-
-**Kunal**
-
-[![GitHub](https://img.shields.io/badge/GitHub-Kunal2456-181717?style=for-the-badge&logo=github)](https://github.com/Kunal2456)
+![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 </div>
 
 ---
 
-<!-- Animated Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling" width="100%"/>
+## Key Stats
 
 <div align="center">
 
-*ShelfIQ — Know your shelf, grow your business.* 🚀
+![Languages](https://img.shields.io/badge/Languages-3%20(EN%20%7C%20IT%20%7C%20HI)-6366f1?style=for-the-badge&logo=googletranslate&logoColor=white)
+![Subscription Tiers](https://img.shields.io/badge/Subscription%20Tiers-4-f59e0b?style=for-the-badge&logo=stripe&logoColor=white)
+![Free Trial](https://img.shields.io/badge/Free%20Trial-14%20Days-22c55e?style=for-the-badge&logo=checkmarx&logoColor=white)
+![Database](https://img.shields.io/badge/Database-PostgreSQL%20%2B%20KV-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
+</div>
+
+---
+
+## Author
+
+<div align="center">
+
+**Built with passion by Kunal**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Kunal2456-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kunal2456)
+[![Profile](https://img.shields.io/badge/View-My%20Profile-6366f1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kunal2456)
+
+![Profile Views](https://komarev.com/ghpvc/?username=Kunal2456&color=6366f1&style=for-the-badge&label=PROFILE+VIEWS)
+
+</div>
+
+---
+
+## Contributing
+
+```bash
+# Fork the repo, then:
+git checkout -b feature/your-feature
+git commit -m "Add your feature"
+git push origin feature/your-feature
+# Open a Pull Request
+```
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer&animation=twinkling&stroke=6366f1&strokeWidth=1" width="100%"/>
+
+<div align="center">
+
+### ShelfIQ — Know Your Shelf. Grow Your Business.
+
+*Production-Ready. Data-Driven. Built for the Real World.*
+
+**If this project helped you, drop a star!**
 
 </div>
