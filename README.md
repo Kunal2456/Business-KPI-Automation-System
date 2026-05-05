@@ -1,18 +1,20 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/ShelfIQ-Smart%20Inventory%20Intelligence-6366f1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0zIDNoMTh2MkgzVjN6bTAgNGgxOHYySDF6bTAgNGgxOHYySDF6bTAgNGgxMnYySDF6Ii8+PC9zdmc+" alt="ShelfIQ Banner"/>
+<!-- Animated Banner Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=ShelfIQ&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Smart%20Inventory%20Intelligence%20Platform&descAlignY=60&descSize=20" width="100%"/>
 
-# ShelfIQ — Smart Inventory Intelligence Platform
+<!-- Typing Animation -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&width=700&height=80&lines=Business+KPI+Automation+%26+Reporting+System;Real-time+Inventory+%7C+GST+Invoicing+%7C+Multi-Store;Built+with+React+%2B+TypeScript+%2B+Supabase" alt="Typing SVG" />
 
-**A production-ready SaaS platform for store owners to get complete business insights, automate KPI reporting, and manage inventory with real-time data.**
+<br/>
 
-[![React](https://img.shields.io/badge/React-18.3-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-06B6D4?style=flat-square&logo=tailwindcss)](https://tailwindcss.com/)
-[![Supabase](https://img.shields.io/badge/Supabase-Backend-3ECF8E?style=flat-square&logo=supabase)](https://supabase.com/)
-[![React Router](https://img.shields.io/badge/React%20Router-v7-CA4245?style=flat-square&logo=reactrouter)](https://reactrouter.com/)
-[![Recharts](https://img.shields.io/badge/Recharts-2.x-FF6384?style=flat-square)](https://recharts.org/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Supabase](https://img.shields.io/badge/Supabase-Backend-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
+[![React Router](https://img.shields.io/badge/React%20Router-v7-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)](https://reactrouter.com/)
+[![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](LICENSE)
 
 </div>
 
@@ -23,14 +25,13 @@
 - [Overview](#-overview)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
-- [Screenshots](#-screenshots)
 - [Getting Started](#-getting-started)
 - [Project Structure](#-project-structure)
 - [Subscription Plans](#-subscription-plans)
 - [Multi-Language Support](#-multi-language-support)
 - [GST & Invoice System](#-gst--invoice-system)
-- [Database Schema](#-database-schema)
 - [Environment Variables](#-environment-variables)
+- [GitHub Stats](#-github-stats)
 - [Contributing](#-contributing)
 
 ---
@@ -83,41 +84,42 @@ ShelfIQ is a **full-stack SaaS Business KPI Automation & Reporting System** buil
 - Globe icon language switcher
 - i18next + react-i18next integration
 
-### 💳 Subscription System (4-Tier)
-| Plan | Price | Features |
-|------|-------|----------|
-| **Free Trial** | ₹0 / 14 days | Core dashboard, 1 store |
-| **Starter** | ₹499/mo | 3 stores, basic reports |
-| **Professional** | ₹1499/mo | 10 stores, GST invoicing, vendor mgmt |
-| **Enterprise** | Custom | Unlimited stores, API access, priority support |
+---
+
+## 💳 Subscription Plans
+
+<div align="center">
+
+| Plan | Price | Stores | Features |
+|------|-------|--------|----------|
+| 🆓 **Free Trial** | ₹0 / 14 days | 1 | Core dashboard, basic reports |
+| 🚀 **Starter** | ₹499/mo | 3 | Basic reports, inventory |
+| 💼 **Professional** | ₹1499/mo | 10 | GST invoicing, vendor mgmt |
+| 🏢 **Enterprise** | Custom | Unlimited | API access, priority support |
+
+</div>
 
 ---
 
 ## 🛠 Tech Stack
 
+<div align="center">
+
 | Layer | Technology |
 |-------|-----------|
 | **Frontend** | React 18, TypeScript, Vite 6 |
-| **Styling** | Tailwind CSS v4, Framer Motion, Motion |
-| **UI Components** | Radix UI, MUI, shadcn-style components |
+| **Styling** | Tailwind CSS v4, Framer Motion |
+| **UI Components** | Radix UI, MUI, Lucide Icons |
 | **Routing** | React Router v7 |
-| **State & Forms** | React Hook Form v7, i18next |
+| **Forms & i18n** | React Hook Form v7, i18next |
 | **Charts** | Recharts 2.x |
 | **Backend** | Supabase (PostgreSQL + Edge Functions) |
-| **Server** | Hono.js (Deno runtime) |
+| **Server** | Hono.js on Deno runtime |
 | **Auth** | Supabase Auth + OTP |
-| **Storage** | Supabase Storage |
 | **File Handling** | xlsx (Excel/CSV import-export) |
-| **Icons** | Lucide React |
 | **Package Manager** | pnpm |
 
----
-
-## 🖥 Screenshots
-
-> Dashboard · Inventory · Vendors · GST Invoices · Landing Page
-
-*(Add screenshots here after deployment)*
+</div>
 
 ---
 
@@ -147,15 +149,6 @@ cp .env.example .env
 pnpm dev
 ```
 
-### Environment Setup
-
-Create a `.env` file in the root directory:
-
-```env
-VITE_SUPABASE_URL=your_supabase_project_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
 ---
 
 ## 📁 Project Structure
@@ -173,7 +166,7 @@ ShelfIQ/
 │   │   │   ├── Auth/                # Login, OTP, onboarding
 │   │   │   └── Landing/             # Animated landing page
 │   │   ├── hooks/                   # Custom React hooks
-│   │   ├── i18n/                    # Translation files (EN, IT, HI)
+│   │   ├── i18n/                    # Translations (EN, IT, HI)
 │   │   ├── types/                   # TypeScript type definitions
 │   │   └── utils/                   # Helper functions
 │   └── styles/
@@ -182,10 +175,9 @@ ShelfIQ/
 ├── supabase/
 │   └── functions/
 │       └── server/
-│           ├── index.tsx            # Hono web server (API routes)
+│           ├── index.tsx            # Hono API server
 │           └── kv_store.tsx         # Key-value store utilities
-├── public/                          # Static assets
-├── .env.example                     # Environment variable template
+├── .env.example
 ├── package.json
 └── README.md
 ```
@@ -194,7 +186,7 @@ ShelfIQ/
 
 ## 🌍 Multi-Language Support
 
-ShelfIQ supports 3 languages out of the box:
+<div align="center">
 
 | Language | Code | Status |
 |----------|------|--------|
@@ -202,34 +194,18 @@ ShelfIQ supports 3 languages out of the box:
 | 🇮🇹 Italian | `it` | ✅ Complete |
 | 🇮🇳 Hindi | `hi` | ✅ Complete |
 
-Switch languages using the **🌐 globe icon** in the navigation bar. Language preference is persisted across sessions.
+</div>
+
+Switch languages using the **🌐 globe icon** in the navigation bar.
 
 ---
 
 ## 🧾 GST & Invoice System
 
-- Auto-fetch business details using **GSTIN** (GST Identification Number)
-- Generates invoices compliant with **Indian GST regulations**
-- Supports **CGST, SGST, IGST** tax breakdowns
+- Auto-fetch business details using **GSTIN**
+- GST-compliant invoices with **CGST, SGST, IGST** breakdowns
 - Multi-store invoice history with search and filter
-- Export to PDF-ready format
-
----
-
-## 🗄 Database Schema
-
-ShelfIQ uses **Supabase PostgreSQL** with the following core tables:
-
-```sql
-stores          -- Business/store registration
-products        -- Inventory catalog
-vendors         -- Vendor directory
-orders          -- Sales & purchase orders
-invoices        -- GST invoices
-kv_store        -- Flexible key-value persistence
-```
-
-> All data is real — no mock/demo data in production mode.
+- PDF-ready invoice templates
 
 ---
 
@@ -237,9 +213,24 @@ kv_store        -- Flexible key-value persistence
 
 | Variable | Description | Required |
 |----------|-------------|----------|
-| `VITE_SUPABASE_URL` | Your Supabase project URL | ✅ |
+| `VITE_SUPABASE_URL` | Supabase project URL | ✅ |
 | `VITE_SUPABASE_ANON_KEY` | Supabase public anon key | ✅ |
 | `SUPABASE_SERVICE_ROLE_KEY` | Server-side service key | ✅ (backend) |
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Kunal2456&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&icon_color=6366f1&text_color=ffffff" height="165" alt="GitHub Stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal2456&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366f1&text_color=ffffff" height="165" alt="Top Languages"/>
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Kunal2456&theme=tokyonight&hide_border=true&background=0D1117&stroke=6366f1&ring=6366f1&fire=f59e0b&currStreakLabel=6366f1" alt="GitHub Streak"/>
+
+</div>
 
 ---
 
@@ -257,21 +248,21 @@ Contributions, issues, and feature requests are welcome!
 
 ## 👨‍💻 Author
 
+<div align="center">
+
 **Kunal**
-- GitHub: [@Kunal2456](https://github.com/Kunal2456)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Kunal2456-181717?style=for-the-badge&logo=github)](https://github.com/Kunal2456)
+
+</div>
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
+<!-- Animated Footer -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling" width="100%"/>
 
 <div align="center">
 
-**Built with ❤️ for smart retail management**
-
-*ShelfIQ — Know your shelf, grow your business.*
+*ShelfIQ — Know your shelf, grow your business.* 🚀
 
 </div>
